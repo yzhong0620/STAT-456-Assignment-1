@@ -1,0 +1,54 @@
+---
+title: 'Assignment #1'
+author: 'Yunyang Zhong'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: paged
+    code_download: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+library(tidyverse)
+theme_set(theme_minimal())
+```
+
+## Setting up Git and GitHub in RStudio
+
+[Yunyang's GitHub](https://github.com/yzhong0620/STAT-456-Assignment-1)
+
+## Creating a website
+
+[Yunyang's website](https://yunyangzhong.netlify.app/)
+
+> This podcast discusses benefits of building a portfolio, including exhibiting projects, getting close to the community, and learning new skills. Creating a website could be helpful for me in the process of applying for grad school as well as looking for internships. I would be able to use a single link to share my past projects instead of attaching several files or sharing GitHub pages that contain codes rather than easily interpretable images or slides.
+
+## Project ideas
+
+-   What are some topics (or a single topic) you are interested in studying from a data science perspective? These can be very specific or more general.  
+
+> For now I don't have specific/detailed ideas but in general I'm interested in public-health-related topics for my project.
+
+-   Given your to topic(s), where would you find data about it? Provide at least two sources, being as specific as possible. If you need to collect/scrape it yourself, describe the steps you'd need too take.
+
+> One source is Kaggle which contains a lot of health-related datasets. Another source I used before is IPUMS which provides data for health research.
+
+-   What challenges do you imagine having? How might you overcome them?  
+
+> It is possible that many of the datasets have a lot of missing values or a limited number of useful variables. I would spend a lot of time browsing through different datasets and doing data cleaning.
+
+## Bias and Fairness
+
+-   Did you hear anything that surprised you?
+
+> When talking about bias, I only thought of subjective tasks with people involved. I never thought of machine bias as machines seem to be objective (although subjective people are involved, I believe the aim is to be objective), which does not coexist with bias. It is distressing to know that a lot of programming was improperly done and led to machine bias.
+
+-   Why is it important that we pay attention to bias and fairness when studying data science?
+
+> Dr. Thomas mentioned feedback loops, which means the model used controls the next round of data obtained. Therefore, predictive policing is predicting future policing, not future crimes. This is one reason why paying attention to bias and fairness when studying data science is important: bias from any step would have an impact on future steps, and this loop would keep going on, which makes the bias situation worse and worse and in the end makes it impossible to redress.
+
+-   Is there a type of bias Dr. Thomas discussed that was new to you? Can you think about places you have seen these types of biases?
+
+> Except for machine bias, all other biases mentioned are not new. I think the reason is that I have not personally experienced such bias. Or that it did not have a direct effect on me, so I did not recognize the bias. This makes machine bias even worse because it is hard to notice and thus hard to point out to change.
